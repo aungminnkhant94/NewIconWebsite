@@ -1,12 +1,47 @@
+a {
+    text-decoration: none;
+}
+
 .navbar {
-    justify-content: space-between;
+    background-color: white;
+
+    .navbar-brand {
+        color: $color-primary;
+        margin-left: 1rem;
+        font-family: Smooch Sans, sans-serif;
+    }
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1.2rem;
 }
 
 .navbar-nav {
+
+    .navbar-brand {
+        color: $color-primary;
+        margin-left: 1rem;
+        font-family: Smooch Sans, sans-serif;
+
+        &:hover,
+        &:focus {
+            color: grey;
+        }
+
+    }
+
     .nav-item {
 
         .nav-link {
+            color: #443c35;
             margin-right: 2rem;
+            padding-left: 3rem;
+            font-size: 1rem;
+
+            &:hover,
+            &:focus {
+                color: $color-primary;
+            }
         }
     }
 }
