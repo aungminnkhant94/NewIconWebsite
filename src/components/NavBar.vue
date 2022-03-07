@@ -4,7 +4,7 @@
              <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"> New Icon
             </a>
           </nav> -->
-          <nav class="navbar navbar-expand-lg navbar-light ">
+          <nav class="navbar navbar-expand-lg navbar-light mb-3">
               <!-- <a class="navbar-brand" href="#">
                <img src="./assets/img/logo.jpg" alt="logo" width="40" height="38" class="d-inline-block align-text-top">
                 New Icon
@@ -26,7 +26,7 @@
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Collection
+                      Collections
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Action</a></li>

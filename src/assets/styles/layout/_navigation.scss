@@ -3,8 +3,9 @@ a {
 }
 
 .navbar {
-    background-color: white;
-
+    background-color: #cfd7d9;
+    padding: 20px 20px;
+    
     .navbar-brand {
         color: $color-primary;
         margin-left: 1rem;
@@ -22,6 +23,7 @@ a {
         color: $color-primary;
         margin-left: 1rem;
         font-family: Smooch Sans, sans-serif;
+        margin-top: -0.3rem;
 
         &:hover,
         &:focus {

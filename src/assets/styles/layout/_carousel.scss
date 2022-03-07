@@ -1,11 +1,19 @@
 #carouselExampleIndicators {
     background-color: #eeecec;
     height: 30rem;
+    width: 70%;
+
+    @include respond(tab-port) {
+        height: 17rem;
+    }
 
     .carousel-inner {
         .carousel-item {
             img {
                 height: 30rem;  
+                @include respond (tab-port) {
+                    height: 17rem;
+                }
             }
         }
     }
