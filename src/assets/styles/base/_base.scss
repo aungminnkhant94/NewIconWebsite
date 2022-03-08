@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     // This defines what 1 rem is
     font-size: 80%; // 1rem = 10px: 10px/16px = 62.5%
@@ -19,12 +27,12 @@ html {
     // }
 }
 
-// body {
-//     box-sizing: border-box;
-//     padding: 3rem;
-//     overflow-x: hidden;
+body {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    overflow-x: hidden;
     
-//     @include respond(tab-port) {
-//         padding: 0;
-//     }
-// }
+    @include respond(tab-port) {
+        padding: 0;
+    }
+}
