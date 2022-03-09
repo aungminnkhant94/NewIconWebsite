@@ -2,14 +2,14 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 30rem;
+    height: 25rem;
 
     &__picture {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 30rem;
+        height: 25rem;
         background-size: cover;
         background-image: url(../img/f1.jpg);
         background-blend-mode: screen;
@@ -20,9 +20,17 @@
         text-transform: uppercase;
         color: $color-white;
         position: absolute;
-        top: 26rem;
-        right: 0.08rem;
+        top: 20rem;
+        right: 0.1px;
         width: 75%;
 
+        &-span  {
+            font-size: 2rem;
+            position: absolute;
+            left: 2rem;
+            color: transparent;
+            background-image: linear-gradient(to right, $color-primary, $color-primary);
+            -webkit-background-clip: text; 
+        }
     }
 }
