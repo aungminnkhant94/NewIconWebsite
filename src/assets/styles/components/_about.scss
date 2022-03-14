@@ -1,0 +1,11 @@
+.section-about {
+    font-size: 1.5rem;
+    padding: 6rem 0;
+    transition: transform .3s;
+    position: relative;
+
+    &__img {
+        width: 116%;
+        border-radius: 2px;
+    }
+}
