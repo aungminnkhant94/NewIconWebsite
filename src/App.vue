@@ -5,6 +5,8 @@
     <main>
       <Features/>
       <About1/>
+      <About2/>
+      <About3/>
       <Services/>
     </main>
   <router-view/>
@@ -19,7 +21,8 @@ import Nav from '@/components/NavBar.vue'
 import Carousel from '@/components/CarouselSlide.vue'
 import Features from '@/components/FeatureDesign.vue'
 import Services from '@/components/ServiceSection.vue'
-import About1 from '@/components/AboutSection.vue'
+import About1 from '@/components/AboutSection1.vue'
+import About2 from '@/components/AboutSection2.vue'
 
 export default {
   components: {
@@ -27,7 +30,8 @@ export default {
     Carousel,
     Features,
     Services,
-    About1
+    About1,
+    About2
   },
   data () {
   }

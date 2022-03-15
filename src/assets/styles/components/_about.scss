@@ -1,11 +1,19 @@
 .section-about {
     font-size: 1.5rem;
-    padding: 6rem 0;
+    padding: 2rem;
     transition: transform .3s;
     position: relative;
+    text-align: center;
 
     &__img {
-        width: 116%;
+        width: 110%;
+        height: 35rem;
         border-radius: 2px;
     }
+
+    // &__2  {
+    //     // @include respond(tab-land) {
+    //     //     margin-top: -7rem;
+    //     // }
+    // }
 }
