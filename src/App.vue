@@ -23,6 +23,7 @@ import Features from '@/components/FeatureDesign.vue'
 import Services from '@/components/ServiceSection.vue'
 import About1 from '@/components/AboutSection1.vue'
 import About2 from '@/components/AboutSection2.vue'
+import About3 from '@/components/AboutSection3.vue'
 
 export default {
   components: {
@@ -31,7 +32,8 @@ export default {
     Features,
     Services,
     About1,
-    About2
+    About2,
+    About3
   },
   data () {
   }

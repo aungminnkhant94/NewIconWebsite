@@ -1,14 +1,39 @@
 .section-about {
-    font-size: 1.5rem;
-    padding: 2rem;
     transition: transform .3s;
     position: relative;
     text-align: center;
+
+    &__content {
+        font-weight: bold;
+    }
 
     &__img {
         width: 110%;
         height: 35rem;
         border-radius: 2px;
+        object-fit: cover;
+
+        @include respond(tab-port) {
+            height: 20rem;
+            width: 100%;
+        }
+    }
+
+    @include respond(tab-port) {
+        &__content {
+            margin-top: -9rem;
+        }
+    }
+
+    &__3 {
+        display: none;
+    }
+
+    @include respond(tab-port) {
+        &__3 {
+            display: inline;
+            align-items: center;
+        }
     }
 
     // &__2  {
@@ -17,3 +42,10 @@
     //     // }
     // }
 }
+
+@include respond (tab-port) {
+    .section-about__2 {
+        display: none;
+    }
+}
+
