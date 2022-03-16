@@ -5,6 +5,11 @@
 
     &__content {
         font-weight: bold;
+        margin-top: 10rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 4rem;
+        }
     }
 
     &__img {
@@ -14,14 +19,21 @@
         object-fit: cover;
 
         @include respond(tab-port) {
-            height: 20rem;
+            height: 28rem;
             width: 100%;
+            margin-bottom: 4rem;
         }
     }
 
     @include respond(tab-port) {
         &__content {
             margin-top: -9rem;
+        }
+    }
+
+    &__2 {
+        .section-about__img {
+            margin-left: -2.8rem;
         }
     }
 
@@ -33,6 +45,10 @@
         &__3 {
             display: inline;
             align-items: center;
+
+            .section-about__img {
+                margin-bottom: -5rem;
+            }
         }
     }
 

@@ -2,6 +2,7 @@
     background-color: #eeecec;
     height: 34rem;
     width: 80%;
+    animation: introLoad 2s forwards;
 
     @include respond(tab-port) {
         height: 17rem;

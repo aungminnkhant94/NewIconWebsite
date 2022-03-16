@@ -9,7 +9,7 @@
             <div class="col-1-of-2">
                 <img src="../assets/img/slide_show1.jpg" alt="" class="section-about__img">
             </div>
-            <div class="col-1-of-2 my-auto u-center-text section-about__content">
+            <div class="col-1-of-2 u-center-text section-about__content">
                 <h3 class="heading-section">
                     Clothing made for you
                 </h3>
