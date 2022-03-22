@@ -32,12 +32,6 @@
     background-image: linear-gradient(to right, $color-primary, $color-grey);
     -webkit-background-clip: text;
     color: transparent;
-
-    &__review {
-        @include respond(phone) {
-            font-size: 1rem;
-        }
-    }
 }
 
 .heading-section {
@@ -66,5 +60,15 @@
 
     &:not(:last-child) {
         margin-bottom: 3rem;
+    }
+}
+
+.heading-review {
+    font-size: 2rem;
+    font-weight: 400;
+    color: $color-primary;
+
+    @include respond(phone) {
+        font-size: 2rem;
     }
 }
