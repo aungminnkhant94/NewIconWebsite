@@ -2,7 +2,7 @@
     <section class="section-reviews ms-auto">
         <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">
-                We promote our beloved clients' business
+                We make our customers genuinely look smart
             </h2>
         </div>
 
@@ -11,7 +11,7 @@
                 <figure class="reviews__shape">
                     <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
                 </figure>
-                <h3 class="heading-review u-margin-bottom-small u-center-text"> သူဌေးစာ </h3>
+                <h3 class="heading-review u-margin-bottom-small u-center-text"> John Doe </h3>
                 <div class="reviews__text">
                     <br>
                     <p class="reviews__paragraph">
@@ -26,7 +26,7 @@
                 <figure class="reviews__shape">
                     <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
                 </figure>
-                <h3 class="heading-review u-margin-bottom-small u-center-text"> သူဌေးစာ </h3>
+                <h3 class="heading-review u-margin-bottom-small u-center-text"> John Doe </h3>
                 <div class="reviews__text">
                     <br>
                     <p class="reviews__paragraph">
@@ -41,7 +41,7 @@
                 <figure class="reviews__shape">
                     <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
                 </figure>
-                <h3 class="heading-review u-margin-bottom-small u-center-text"> သူဌေးစာ </h3>
+                <h3 class="heading-review u-margin-bottom-small u-center-text"> John Doe </h3>
                 <div class="reviews__text">
                     <br>
                     <p class="reviews__paragraph">

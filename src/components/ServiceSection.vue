@@ -1,5 +1,5 @@
 <template>
-    <section class="section-services mb-2">
+    <section class="section-services mb-2" id="services">
         <div class="u-center-text mt-5">
             <h2 class="heading-secondary">
                 Why Custom Tailoring ?

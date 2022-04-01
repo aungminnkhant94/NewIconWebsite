@@ -1,5 +1,74 @@
 <template>
-    <Nav/>
+    <!-- <nav class="col-12 bg-light pe-3 border-right">
+          <a class="navbar-brand" href="#">
+           <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"> New Icon
+          </a>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-light mb-3">
+            <!-- <a class="navbar-brand" href="#">
+             <img src="./assets/img/logo.jpg" alt="logo" width="40" height="38" class="d-inline-block align-text-top">
+              New Icon
+            </a> -->
+            <router-link to="/" class="navbar-brand d-lg-none d-sm-block">
+             <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"> New Icon
+            </router-link>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Collections
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Fabrics
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <router-link to="/" class="navbar-brand d-none d-lg-block">
+                 <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"> New Icon
+                </router-link>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Reviews</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!-- eslint-disable-next-line -->
+    <!-- <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav> -->
     <Carousel/>
 
     <main>
@@ -18,7 +87,6 @@
 </style>
 
 <script>
-import Nav from '@/components/NavBar.vue'
 import Carousel from '@/components/CarouselSlide.vue'
 import Features from '@/components/FeatureDesign.vue'
 import Services from '@/components/ServiceSection.vue'
@@ -29,7 +97,6 @@ import Review from '@/components/ReviewSection.vue'
 
 export default {
   components: {
-    Nav,
     Carousel,
     Features,
     Services,
