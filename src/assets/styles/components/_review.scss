@@ -1,14 +1,14 @@
 .reviews {
     width: 75%;
     margin: 0 auto;
-    box-shadow: 0 3rem 6rem rgba(black, .1);
+    box-shadow: 0 3rem 4rem rgba(black, .1);
     background-color: white;
     border-radius: 3px;
-    padding: 6rem;
+    padding: 4rem;
     padding-left: 9rem;
     font-size: 1.6rem;
     transform: skewX(-12deg);
-
+    
     @include respond(tab-port) {
         width: 100%;
         padding: 4rem;

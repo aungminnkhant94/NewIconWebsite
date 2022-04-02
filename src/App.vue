@@ -29,9 +29,10 @@
                     Collections
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><router-link to="/suits" class="dropdown-item">Suits</router-link></li>
+                    <li><a class="dropdown-item" href="#">Shirts</a></li>
+                    <li><a class="dropdown-item" href="#">Trousers</a></li>
+                    <li><a class="dropdown-item" href="#">Accessories</a></li>
                   </ul>
                 </li>
 
@@ -69,7 +70,6 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav> -->
-    <Carousel/>
 
     <main>
       <Features/>
@@ -130,9 +130,9 @@
         </div>
         <div>
           <p class="footer__copyright">
-            Copyright &copy; 2022, Crafted by
+            Copyright &copy; 2022, All rights reserved By
             <a href="https://shalyaungdigital.com/">
-                <span>Shal Yaung</span>
+                <span>New Icon Custom Tailor</span>
             </a>
           </p>
         </div>
@@ -146,7 +146,6 @@
 </style>
 
 <script>
-import Carousel from '@/components/CarouselSlide.vue'
 import Features from '@/components/FeatureDesign.vue'
 import Services from '@/components/ServiceSection.vue'
 import About1 from '@/components/AboutSection1.vue'
@@ -156,7 +155,6 @@ import Review from '@/components/ReviewSection.vue'
 
 export default {
   components: {
-    Carousel,
     Features,
     Services,
     About1,
