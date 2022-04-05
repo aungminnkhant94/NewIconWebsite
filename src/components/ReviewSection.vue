@@ -1,5 +1,5 @@
 <template>
-    <section class="section-reviews ms-auto">
+    <section class="section-reviews ms-auto" id="reviews">
         <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">
                 We make our customers genuinely look smart

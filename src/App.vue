@@ -1,9 +1,4 @@
 <template>
-    <!-- <nav class="col-12 bg-light pe-3 border-right">
-          <a class="navbar-brand" href="#">
-           <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"> New Icon
-          </a>
-        </nav> -->
         <nav class="navbar navbar-expand-lg navbar-light mb-3">
             <!-- <a class="navbar-brand" href="#">
              <img src="./assets/img/logo.jpg" alt="logo" width="40" height="38" class="d-inline-block align-text-top">
@@ -52,11 +47,11 @@
                 </router-link>
 
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#services">Services</a>
+                  <a href="/#services" class="nav-link" aria-current="page" >Services</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Reviews</a>
+                  <a class="nav-link" aria-current="page" href="/#reviews">Reviews</a>
                 </li>
 
                 <li class="nav-item">
@@ -65,11 +60,6 @@
               </ul>
             </div>
         </nav>
-        <!-- eslint-disable-next-line -->
-    <!-- <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav> -->
   <router-view/>
   <footer class="footer">
     <router-link to="/">
@@ -140,5 +130,4 @@ export default {
   components: {
   }
 }
-
 </script>
