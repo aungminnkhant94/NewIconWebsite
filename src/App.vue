@@ -70,75 +70,65 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav> -->
-
-    <main>
-      <Features/>
-      <About1/>
-      <About2/>
-      <About3/>
-      <Services/>
-      <Review/>
-
-      <footer class="footer">
-        <router-link to="/">
-          <div class="footer__logo-box">
-            <img src="./assets/img/logo.jpg" alt="Full logo" class="footer__logo">
-          </div>
-        </router-link>
-        <div class="row">
-          <div class="col-1-of-3">
-            <h3 class="heading-footer u-center-text">
-              About Us
-            </h3>
-            <p class="footer__paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum explicabo quo culpa, cum commodi, tempore accusamus beatae dicta illum dolorum tempora vero nostrum sequi earum perferendis voluptatem! Voluptatem, nesciunt porro?
-            </p>
-          </div>
-          <div class="col-1-of-3">
-            <h3 class="heading-footer u-center-text">
-              Contact Information
-            </h3>
-            <ul class="footer__data">
-              <li class="footer__information">
-                <i class="footer__information--icon far fa-phone"></i> 09422242425
-              </li>
-              <li class="footer__information">
-                <i class="footer__information--icon far fa-address-book"></i> No.5A, E-02, Ground Floor, Tabin Shwe Htee Street, Near Aung Zaya Road, 14 Qtr, Kyauk Kone, Yankin, Yangon
-              </li>
-              <li class="footer__information">
-                <i class="footer__information--icon far fa-envelope"></i> newiconcustomtailor@gmail.com
-              </li>
-            </ul>
-          </div>
-          <div class="col-1-of-3">
-            <h3 class="heading-footer u-center-text">
-              Social Media Links
-            </h3>
-            <ul class="footer__data">
-              <a href="#">
-                <li class="footer__information">
-                  <i class="footer__information--icon fab fa-facebook-f"></i> New Icon Custom Tailor
-                </li>
-              </a>
-              <a href="#">
-                <li class="footer__information">
-                  <i class="footer__information--icon fab fa-instagram"></i> newicontailor
-                </li>
-              </a>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <p class="footer__copyright">
-            Copyright &copy; 2022, All rights reserved By
-            <a href="https://shalyaungdigital.com/">
-                <span>New Icon Custom Tailor</span>
-            </a>
-          </p>
-        </div>
-      </footer>
-    </main>
   <router-view/>
+  <footer class="footer">
+    <router-link to="/">
+      <div class="footer__logo-box">
+        <img src="./assets/img/logo.jpg" alt="Full logo" class="footer__logo">
+      </div>
+    </router-link>
+    <div class="row">
+      <div class="col-1-of-3">
+        <h3 class="heading-footer u-center-text">
+          About Us
+        </h3>
+        <p class="footer__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum explicabo quo culpa, cum commodi, tempore accusamus beatae dicta illum dolorum tempora vero nostrum sequi earum perferendis voluptatem! Voluptatem, nesciunt porro?
+        </p>
+      </div>
+      <div class="col-1-of-3">
+        <h3 class="heading-footer u-center-text">
+          Contact Information
+        </h3>
+        <ul class="footer__data">
+          <li class="footer__information">
+            <i class="footer__information--icon far fa-phone"></i> 09422242425
+          </li>
+          <li class="footer__information">
+            <i class="footer__information--icon far fa-address-book"></i> No.5A, E-02, Ground Floor, Tabin Shwe Htee Street, Near Aung Zaya Road, 14 Qtr, Kyauk Kone, Yankin, Yangon
+          </li>
+          <li class="footer__information">
+            <i class="footer__information--icon far fa-envelope"></i> newiconcustomtailor@gmail.com
+          </li>
+        </ul>
+      </div>
+      <div class="col-1-of-3">
+        <h3 class="heading-footer u-center-text">
+          Social Media Links
+        </h3>
+        <ul class="footer__data">
+          <a href="#">
+            <li class="footer__information">
+              <i class="footer__information--icon fab fa-facebook-f"></i> New Icon Custom Tailor
+            </li>
+          </a>
+          <a href="#">
+            <li class="footer__information">
+              <i class="footer__information--icon fab fa-instagram"></i> newicontailor
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p class="footer__copyright">
+        Copyright &copy; 2022, All rights reserved By
+        <a href="https://shalyaungdigital.com/">
+            <span>New Icon Custom Tailor</span>
+        </a>
+      </p>
+    </div>
+  </footer>
 </template>
 
 <style>
@@ -146,23 +136,8 @@
 </style>
 
 <script>
-import Features from '@/components/FeatureDesign.vue'
-import Services from '@/components/ServiceSection.vue'
-import About1 from '@/components/AboutSection1.vue'
-import About2 from '@/components/AboutSection2.vue'
-import About3 from '@/components/AboutSection3.vue'
-import Review from '@/components/ReviewSection.vue'
-
 export default {
   components: {
-    Features,
-    Services,
-    About1,
-    About2,
-    About3,
-    Review
-  },
-  data () {
   }
 }
 
