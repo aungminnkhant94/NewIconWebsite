@@ -25,9 +25,9 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><router-link to="/suits" class="dropdown-item">Suits</router-link></li>
-                    <li><a class="dropdown-item" href="#">Shirts</a></li>
-                    <li><a class="dropdown-item" href="#">Trousers</a></li>
-                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                    <li><router-link to="/shirts" class="dropdown-item">Shirts</router-link></li>
+                    <li><router-link to="/trousers" class="dropdown-item">Trousers</router-link></li>
+                    <li><router-link to="/accessories" class="dropdown-item">Accessories</router-link></li>
                   </ul>
                 </li>
 

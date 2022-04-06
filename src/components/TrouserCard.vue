@@ -87,7 +87,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
             <div class="col-12 col-lg-3 col-md-6">
@@ -95,7 +95,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
             <div class="col-12 col-lg-3 col-md-6">
@@ -103,7 +103,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
             <div class="col-12 col-lg-3 col-md-6">
@@ -111,7 +111,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
         </div>
@@ -123,7 +123,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
             <div class="col-12 col-lg-3 col-md-6">
@@ -131,7 +131,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
             <div class="col-12 col-lg-3 col-md-6">
@@ -139,7 +139,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
             <div class="col-12 col-lg-3 col-md-6">
@@ -147,7 +147,7 @@
                     <img src="../assets/img/f1.jpg" alt="" class="card-suit__image">
                 </div>
                 <h4 class="card-suit__heading u-center-text mt-3">
-                    Suit 1
+                    Trouser 1
                 </h4>
             </div>
         </div>
