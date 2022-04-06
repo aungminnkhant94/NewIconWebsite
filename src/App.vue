@@ -16,11 +16,11 @@
 
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
+                  <router-link to="/" class="nav-link fs-5" aria-current="page">Home</router-link>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Collections
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -32,7 +32,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Fabrics
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -47,21 +47,21 @@
                 </router-link>
 
                 <li class="nav-item">
-                  <a href="/#services" class="nav-link" aria-current="page" >Services</a>
+                  <a href="/#services" class="nav-link fs-5" aria-current="page" >Services</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="/#reviews">Reviews</a>
+                  <a class="nav-link fs-5" aria-current="page" href="/#reviews">Reviews</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                  <a class="nav-link fs-5" aria-current="page" href="/#contact">Contact Us</a>
                 </li>
               </ul>
             </div>
         </nav>
   <router-view/>
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <router-link to="/">
       <div class="footer__logo-box">
         <img src="./assets/img/logo.jpg" alt="Full logo" class="footer__logo">
