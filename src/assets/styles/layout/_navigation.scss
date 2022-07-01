@@ -3,27 +3,26 @@ a {
 }
 
 .navbar {
-    padding: 20px 20px;
+    padding: 22px 22px;
     
     .navbar-brand {
         color: $color-primary;
-        margin-left: 1rem;
-        font-family: Smooch Sans, sans-serif;
+        margin-left: 5rem;
+        font-family: Poppins,Smooch Sans, sans-serif;
+        font-weight: 600;
     }
 }
 
 .nav-item {
-    font-weight: 500;
-    font-family: Smooch Sans, sans-serif;
+    font-family: Poppins,Smooch Sans, sans-serif;
+    font-size: 20px;
 }
 
 .navbar-nav {
-    font-size: 20px;
     .navbar-brand {
-        font-size: 1.5rem;
         color: $color-primary;
         margin-left: 1rem;
-        font-family: Smooch Sans, sans-serif;
+        font-family: Poppins,Smooch Sans, sans-serif;
         margin-top: -0.3rem;
 
         &:hover,
@@ -37,9 +36,9 @@ a {
 
         .nav-link {
             color: #443c35;
-            margin-right: 2rem;
-            padding-left: 3rem;
-            font-size: 1rem;
+            margin-right: 3rem;
+            padding-left: 5rem;
+            font-weight: 500;
 
             &:hover,
             &:focus {

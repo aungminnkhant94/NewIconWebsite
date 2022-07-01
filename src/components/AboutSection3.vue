@@ -6,10 +6,10 @@
             </div>
             <div class="col-1-of-2 my-auto u-center-text section-about__content">
                 <h3 class="heading-section">
-                    Clothing made for you
+                    The people behind our suits
                 </h3>
                 <p class="section-about__paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi perspiciatis repudiandae vero iste, quia pariatur nam, consequuntur quisquam a
+                    "Veteran" is a one-word word, but it is not an easy title to acquire. New Icon Custom Tailor's Veteran tailors from Bangkok with over 20 years of experience create your Suits that is sure to match your dream design and perfect fit.
                 </p>
             </div>
         </div>

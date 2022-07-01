@@ -11,10 +11,10 @@
             </div>
             <div class="col-1-of-2 u-center-text section-about__content">
                 <h3 class="heading-section">
-                    Clothing made for you
+                    The Suit made for you
                 </h3>
                 <p class="section-about__paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi perspiciatis repudiandae vero iste, quia pariatur nam, consequuntur quisquam a
+                    A custom-tailored suit is much like a piece of art. Creating suit that breathe your style has never been easier. We are creating perfect fit guaranteed suits aligned with your shape and every style need.
                 </p>
             </div>
         </div>

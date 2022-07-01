@@ -70,10 +70,11 @@
     <div class="row">
       <div class="col-1-of-3">
         <h3 class="heading-footer u-center-text">
-          About Us
+          Our Story
         </h3>
         <p class="footer__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum explicabo quo culpa, cum commodi, tempore accusamus beatae dicta illum dolorum tempora vero nostrum sequi earum perferendis voluptatem! Voluptatem, nesciunt porro?
+          At New Icon, we create suits that are more than your expectations. From choosing the fabric to selecting the suit type, we are helping you to find and get a perfect-fitted suit for your desire occasion.
+          Established in 2017, New Icon Custom Tailor always provide the quality of services in accordance with the values set by the standard.
         </p>
       </div>
       <div class="col-1-of-3">
@@ -82,7 +83,7 @@
         </h3>
         <ul class="footer__data">
           <li class="footer__information">
-            <i class="footer__information--icon far fa-phone"></i> 09422242425
+            <i class="footer__information--icon far fa-phone"></i>09422242425
           </li>
           <li class="footer__information">
             <i class="footer__information--icon far fa-address-book"></i> No.5A, E-02, Ground Floor, Tabin Shwe Htee Street, Near Aung Zaya Road, 14 Qtr, Kyauk Kone, Yankin, Yangon
@@ -113,9 +114,7 @@
     <div>
       <p class="footer__copyright">
         Copyright &copy; 2022, All rights reserved By
-        <a href="https://shalyaungdigital.com/">
-            <span>New Icon Custom Tailor</span>
-        </a>
+          <span>New Icon Custom Tailor</span>
       </p>
     </div>
   </footer>

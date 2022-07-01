@@ -3,9 +3,10 @@
     font-size: 1.5rem;
     padding: 3rem;
     text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 1rem 4rem rgba(black, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 1rem 3rem rgba(black, 0.15);
     transition: transform .3s;
+    height: 35rem;
 
     &__icon {
         font-size: 6rem;
@@ -15,7 +16,7 @@
         // background-image: linear-gradient(to right, #f3efe6);
         // -webkit-background-clip: text; 
         //  .2rem
-        color: rgba(black, 0.5);
+        color: rgba($color-primary, 0.6);
 
         @include respond(tab-port) {
             margin-bottom: 0;
