@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-1-of-2">
-                <img src="../assets/img/slide_show1.jpg" alt="" class="section-about__img">
+                <img src="../assets/img/Custom-Cloth.png" alt="" class="section-about__img">
             </div>
             <div class="col-1-of-2 u-center-text section-about__content">
                 <h3 class="heading-section">

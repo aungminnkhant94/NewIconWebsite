@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="col-1-of-2">
-                <img src="../assets/img/slide_show1.jpg" alt="" class="section-about__img">
+                <img src="../assets/img/Tailor.png" alt="" class="section-about__img">
             </div>
         </div>
     </section>

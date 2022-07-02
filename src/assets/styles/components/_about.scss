@@ -5,7 +5,7 @@
 
     &__content {
         font-weight: bold;
-        margin-top: 10rem;
+        margin-top: 13rem;
 
         @include respond(tab-port) {
             margin-bottom: 4rem;
@@ -14,7 +14,7 @@
 
     &__img {
         width: 110%;
-        height: 45rem;
+        height: 50rem;
         border-radius: 2px;
         object-fit: cover;
 

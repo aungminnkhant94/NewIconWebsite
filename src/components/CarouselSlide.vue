@@ -2,16 +2,16 @@
       <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../assets/img/slide_show4.jpg" class="d-block mx-auto w-100" alt="">
+            <img src="../assets/img/slide_show1.jpeg" class="d-block mx-auto w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/slide_show5.jpg" class="d-block mx-auto w-100" alt="">
+            <img src="../assets/img/slide_show2.jpeg" class="d-block mx-auto w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/slide_show6.jpg" class="d-block mx-auto w-100" alt="">
+            <img src="../assets/img/slide_show3.jpeg" class="d-block mx-auto w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/slide_show7.jpg" class="d-block mx-auto w-100" alt="">
+            <img src="../assets/img/slide_show4.jpeg" class="d-block mx-auto w-100" alt="">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

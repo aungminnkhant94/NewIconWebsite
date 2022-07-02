@@ -1,6 +1,6 @@
 #carouselExampleIndicators {
     background-color: #eeecec;
-    height: 40rem;
+    height: 45rem;
     width: 85%;
     animation: introLoad 2s forwards;
     border-radius: 2rem;
@@ -12,7 +12,7 @@
     .carousel-inner {
         .carousel-item {
             img {
-                height: 40rem;  
+                height: 45rem;  
                 @include respond (tab-port) {
                     height: 17rem;
                 }
