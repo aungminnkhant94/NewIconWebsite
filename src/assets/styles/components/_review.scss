@@ -41,7 +41,6 @@
         clip-path: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
-        box-shadow: 0 3rem 6rem rgba(black, .1);
 
 
         @include respond(tab-port) {
@@ -84,5 +83,11 @@
             font-size: 1rem;
             text-align: left;
         }
+    }
+
+    &__stars {
+        text-align: center;
+        color: #eccd2f;
+        margin-right: 12px;
     }
 }

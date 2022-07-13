@@ -12,8 +12,14 @@
                     <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
                 </figure>
                 <h3 class="heading-review u-margin-bottom-small u-center-text"> John Doe </h3>
+                <div class="reviews__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <div class="reviews__text">
-                    <br>
                     <p class="reviews__paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis in sequi repellat minima mollitia natus saepe facere? Magnam aliquam atque nemo nobis delectus cum possimus maxime aspernatur veritatis esse?
                     </p>
@@ -27,8 +33,14 @@
                     <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
                 </figure>
                 <h3 class="heading-review u-margin-bottom-small u-center-text"> John Doe </h3>
+                <div class="reviews__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <div class="reviews__text">
-                    <br>
                     <p class="reviews__paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis in sequi repellat minima mollitia natus saepe facere? Magnam aliquam atque nemo nobis delectus cum possimus maxime aspernatur veritatis esse?
                     </p>
@@ -42,8 +54,13 @@
                     <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
                 </figure>
                 <h3 class="heading-review u-margin-bottom-small u-center-text"> John Doe </h3>
+                <div class="reviews__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <div class="reviews__text">
-                    <br>
                     <p class="reviews__paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis in sequi repellat minima mollitia natus saepe facere? Magnam aliquam atque nemo nobis delectus cum possimus maxime aspernatur veritatis esse?
                     </p>

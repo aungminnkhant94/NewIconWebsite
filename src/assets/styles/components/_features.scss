@@ -5,6 +5,10 @@
     height: 27rem;
     border-radius: 7px;
 
+    @include respond(phone) {
+        height: 34rem;
+    }
+
     &:hover {
         transform: translateZ(-1rem) scale(1.03);
     }
@@ -21,7 +25,7 @@
         border-radius: 7px;
 
         @include respond(phone) {
-            height: 25rem;
+            height: 30rem;
         }
     }
 
@@ -37,7 +41,7 @@
         border-radius: 7px;
 
         @include respond(phone) {
-            height: 25rem;
+            height: 30rem;
         }
     }
 
@@ -53,7 +57,7 @@
         border-radius: 7px;
 
         @include respond(phone) {
-            height: 25rem;
+            height: 30rem;
         }
     }
 
@@ -69,7 +73,7 @@
         border-radius: 7px;
 
         @include respond(phone) {
-            height: 25rem;
+            height: 30rem;
         }
     }
 
@@ -85,7 +89,7 @@
         border-radius: 7px;
 
         @include respond(phone) {
-            height: 25rem;
+            height: 30rem;
         }
     }
 
@@ -98,13 +102,19 @@
         right: 0.1px;
         width: 75%;
 
-        &-span  {
-            font-size: 2rem;
-            position: absolute;
-            left: 2rem;
-            color: transparent;
-            background-image: linear-gradient(to right, $color-primary, $color-primary);
-            -webkit-background-clip: text; 
+        @include respond(phone) {
+            top: 31rem;
+            text-align: center;
+            right: 4rem;
         }
+
+        // &-span  {
+        //     font-size: 2rem;
+        //     position: absolute;
+        //     left: 2rem;
+        //     color: transparent;
+        //     background-image: linear-gradient(to right, $color-primary, $color-primary);
+        //     -webkit-background-clip: text; 
+        // }
     }
 }
