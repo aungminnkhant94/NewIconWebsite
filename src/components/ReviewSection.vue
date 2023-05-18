@@ -9,7 +9,7 @@
         <div class="row">
             <div class="reviews ms-auto">
                 <figure class="reviews__shape">
-                    <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
+                    <img src="../assets/img/l-zhi.jpg" alt="" class="reviews__img">
                 </figure>
                 <h3 class="heading-review u-margin-bottom-small u-center-text"> L Zi </h3>
                 <div class="reviews__stars">
@@ -30,7 +30,7 @@
         <div class="row">
             <div class="reviews ms-auto">
                 <figure class="reviews__shape">
-                    <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
+                    <img src="../assets/img/jonathan.jpg" alt="" class="reviews__img">
                 </figure>
                 <h3 class="heading-review u-margin-bottom-small u-center-text"> Jonathan Swan Htet </h3>
                 <div class="reviews__stars">
@@ -51,7 +51,7 @@
         <div class="row">
             <div class="reviews ms-auto">
                 <figure class="reviews__shape">
-                    <img src="../assets/img/nat-8.jpg" alt="" class="reviews__img">
+                    <img src="../assets/img/thint.jpg" alt="" class="reviews__img">
                 </figure>
                 <h3 class="heading-review u-margin-bottom-small u-center-text"> Thint Myat Soe</h3>
                 <div class="reviews__stars">

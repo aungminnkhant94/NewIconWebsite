@@ -5,8 +5,7 @@
               New Icon
             </a> -->
             <router-link to="/" class="navbar-brand d-lg-none d-sm-block">
-             <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"> New Icon
-            </router-link>
+             <img src="./assets/img/logo.jpg" alt="logo" width="45" height="42" class="d-inline-block align-text-center"></router-link>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -59,13 +58,13 @@
   <footer class="footer" id="contact">
     <router-link to="/">
       <div class="footer__logo-box">
-        <img src="./assets/img/logo.jpg" alt="Full logo" class="footer__logo">
+        <img src="./assets/img/footer.jpg" alt="Full logo" class="footer__logo">
       </div>
     </router-link>
     <div class="row">
       <div class="col-1-of-3">
         <h3 class="heading-footer u-center-text">
-          <router-link to="/our-story" class="our__story">Our Story</router-link>
+          <router-link to="/our-story.html" class="our__story">Our Story</router-link>
           <!-- <a href="" class="our__story">Our Story</a> -->
         </h3>
         <p class="footer__paragraph">
